@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1024px" height="768px" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
+<g id="Layer_1_1_">
+	
+		<image overflow="visible" enable-background="new    " width="1024" height="768" xlink:href="smokeRoom.jpg"  transform="matrix(1 0 0 1 0 2.441406e-004)">
+	</image>
+	
+		<image display="none" overflow="visible" enable-background="new    " width="1024" height="768" xlink:href="smokeRoomItems.png"  transform="matrix(1 0 0 1 0 2.441406e-004)">
+	</image>
+</g>
+<g id="Layer_3">
+	
+		<image overflow="visible" enable-background="new    " width="107" height="92" xlink:href="13.png"  transform="matrix(1 0 0 1 181.666 597.9983)">
+	</image>
+	
+		<image overflow="visible" enable-background="new    " width="32" height="24" id="coussin_1_" xlink:href="7.png"  transform="matrix(1 0 0 1 299.5 145.1682)">
+	</image>
+	
+		<image overflow="visible" enable-background="new    " width="43" height="38" id="eer" xlink:href="8.png"  transform="matrix(1 0 0 1 330.75 318.2502)">
+	</image>
+	
+		<image overflow="visible" enable-background="new    " width="87" height="80" id="cigar" xlink:href="9.png"  transform="matrix(1 0 0 1 619.9561 502.9475)">
+	</image>
+	
+		<image overflow="visible" enable-background="new    " width="63" height="66" id="seau_1_" xlink:href="10.png"  transform="matrix(1 0 0 1 936.6367 361.7502)">
+	</image>
+	
+		<image overflow="visible" enable-background="new    " width="271" height="143" id="sofa_1_" xlink:href="11.png"  transform="matrix(1 0 0 1 44.208 625.0002)">
+	</image>
+	
+		<image overflow="visible" enable-background="new    " width="87" height="63" id="cendrier_1_" xlink:href="12.png"  transform="matrix(1 0 0 1 143.916 591.5002)">
+	</image>
+</g>
+<g id="Layer_2">
+	<path id="coussin" fill="#328B00" d="M314.75,150c7,0,11.75,1.938,11.75,8.188c0,4.522-2.625,8.188-11.75,8.188
+		c-6.489,0-11.75-1.501-11.75-8.188C303,152.688,308.261,150,314.75,150z"/>
+	<path id="cendrier" fill="#328B00" d="M152.75,616c0,0,9.25-19.75,37-18.25s37.25,21,29.5,33s-25,18.25-46,15.75
+		S144,629.25,152.75,616z"/>
+	<path id="seau" fill="#328B00" d="M943.833,370.834l20.5-1l17.5,1l5.833,5l7.167,1.167L993,385.665h-5.167l-9,31.666
+		c0,0-10.333,4.669-21.333,0.835s-7.334-21.5-7.334-21.5l-1-12.667l-2.666-3.5l-4.5-3C942,377.5,940.666,371.834,943.833,370.834z"
+		/>
+	<path id="cigares" fill="#328B00" d="M644.25,515.5c0,0,3.75-2.125,5.75-2.25s15.5,12,15.5,12h6.5l24.75,9L698.5,545l-27.125,31
+		L659,571.25L640.75,559l-1.25-4.75l-5.25-0.5L623.75,542v-9.75L644.25,515.5z"/>
+	<path id="verres" fill="#328B00" d="M347.875,350.375c0.937-0.335,7.625-2.75,7.625-2.75l1.25-7l8.75-6.25
+		c0,0,0.083-8.293-2.375-9.625c-2.458-1.334-9,0-9,0l-3.875,6.375l-8.875,4.625l-3.5,7.375l3,5.875
+		C340.875,349,346.938,350.709,347.875,350.375z"/>
+	<path id="journal" fill="#328B00" d="M218,635.25L249.25,604c0,0,13.75,3,21.5,6.75s16,16,16,16l-66,61.75l-18-9.25L188,665.5
+		v-6.25L218,635.25z"/>
+	<path id="sofa" fill="#328B00" d="M306,768v-47l3.5-10.25l-16.5-14.5c0,0-35.75,9.75-59.75,3.5S162,657.5,155.75,653
+		s-40.75-24.25-82-16.5S45,675,45,675l3.5,3.5l7.75,56.25c0,0,7.25,30.5,17.75,33.25"/>
+</g>
+<path id="tableau" fill="#5C8FFF" stroke="#000000" stroke-miterlimit="10" d="M53.5,158.188L48,150c0,0,12.5-10,15.5-8
+	s6,2.336,21.5,3.168S128,137,134.5,134.5s12.5,5,18.5,6.5s45.5,0.5,45.5,0.5s-2,7,0,19.5s-1.5,74,0,77.5s-18.5,21-21,13.5
+	s-15,2.699-41.5,1.85s-73,0.051-73,0.051s-9,5.6-6.5-13.9S53.5,158.188,53.5,158.188z"/>
+<path id="lampe" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M844,286c0,0,0,10.5,0-14s-5.5-16.5,0-18
+	s13.5-6,13.5-10.5s5-5,5-5l-13-19l-21,12l-6.5,5c0,0,10,3.5,11.5,8.5s-1,38.5-1,38.5l-4.5,4.737L844,286z"/>
+<path id="boite" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M134.5,300c0-1.5-1-13.5,0-15s-6.5-6-23-5.5
+	s-18,7.461-19.5,10.23S95,307,95,307l9,6L134.5,300z"/>
+<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M584.25,322.5c0,0,20,5.25,20.75,5.25s16.5-5.25,16.5-5.25v11
+	c0,0-10.75,4.5-12,7S591.75,358,590.75,358s-8.25-5.75-8.25-5.75L584.25,322.5z"/>
+</svg>

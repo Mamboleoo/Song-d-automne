@@ -1,0 +1,11 @@
+<svg width="1956px" height="748px">
+	<g id="groupMaps" transform="matrix(1 0 0 1 -932 0)">
+		<image width="1956" height="748" xlink:href="img/maps/boatDeck.png" />
+		<path ng-show="data.chapter == 2" ng-class="{active : data.actualRoom =='firstClassBoat'}"  ng-click="data.actualRoom='firstClassBoat'" d="M1264,211v67.5h184.5V296H1651v-85h-15.5c0,0-50.5-29-97,0c-1,0.5-29,0-29,0s-41.5-30-103.5,0 c-1.5,0.5-29.5,0-29.5,0s-46-32-97,0H1264z"/>
+		<path ng-class="{active : data.actualRoom =='wheelHouse'}" ng-click="specialRoom('wheelHouse')" d="M1749.501,334h16.624v6.833h15.376V334h16.166 c14.334,14.167,11.834,74.084,0,92.751h-16.166V416h-15.376v10.751h-16.624V334z"/>
+		<path ng-class="{active : data.actualRoom =='boatDeckstairs'}" ng-click="data.actualRoom='boatDeckstairs';stairChoice(false, 'a')" d="M1446,416.25h-76.5v-4.5c0,0-38.25-29.5,0-62.25v-3.25 h76.5V416.25z"/>
+		<circle id="pawn" r="10" />
+	</g>
+</svg>
+<div class="gradient fadeInOut" ng-show="data.stillMapLeftAvailable" ></div>
+<div class="gradient fadeInOut" ng-show="data.stillMapRightAvailable" ></div>

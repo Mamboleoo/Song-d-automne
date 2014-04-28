@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1956px" height="748px" viewBox="0 0 1956 748" enable-background="new 0 0 1956 748" xml:space="preserve">
+<g>
+	
+		<image overflow="visible" enable-background="new    " width="1956" height="748" xlink:href="a.png"  transform="matrix(1 0 0 1 0 2.441406e-004)">
+	</image>
+	<polygon id="smoke" fill="#FFFFFF" points="365.5,290.834 365.5,346.161 380.5,346.161 380.5,416.827 365.5,416.827 365.5,474.5 
+		388.167,474.5 401.167,486.5 440.167,486.5 454.833,474.827 499.5,474.827 513.5,486.5 553.833,486.5 568.167,473.827 
+		586.5,473.827 586.5,416.161 486.167,415.5 485.833,345.834 586.5,346.5 586.5,286.834 569.167,286.834 555.167,273.5 
+		513.167,273.5 499.167,288.167 456.167,287.5 441.5,275.834 400.5,275.834 386.833,288.5 	"/>
+	<rect id="bedroom_x5F_1.2" x="1613.168" y="460.5" fill="#FFFFFF" width="34.333" height="26"/>
+</g>
+<path fill="#FFFFFF" d="M1119.75,288.5h15.5c14.25-15.5,37.75-16,53.25,0c0.25,0.25,63.5,1.25,63.5,1.25v56h-45.5l-1.25,68.5h-85.5
+	V288.5z"/>
+<polygon fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="265.25,279.75 281,279.75 292.25,265.75 334,265.75 
+	346.25,276.75 359.75,277.25 359.75,289.75 363.5,289.75 363.5,345.25 265.25,345.25 265.25,419.25 363.5,419.25 363.5,485 
+	349.5,485 337.5,497.75 294.75,497.75 282.5,486.5 268,486.5 265.25,419.25 "/>
+<rect id="elevetor" x="1471.833" y="349.166" fill="#FFFFFF" width="26" height="67.334"/>
+<path id="stairs1" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M1471.833,349.166H1426.5
+	c-6.166,0-12.332,7.5-12.5,16.084c0,12.5,0,34.75,0,34.75c0.668,7.167,5.501,15.5,11.25,16.5c2.5,0,46.583,0,46.583,0V349.166z"/>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1024px"
+	 height="768px" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
+<g id="Layer_1">
+	
+		<image overflow="visible" enable-background="new    " width="1024" height="768" xlink:href="veranda.jpg"  transform="matrix(1 0 0 1 0 2.441406e-004)">
+	</image>
+	
+		<image overflow="visible" enable-background="new    " width="65" height="49" id="assiette" xlink:href="20.png"  transform="matrix(1 0 0 1 859.502 478.0042)">
+	</image>
+	
+		<image overflow="visible" enable-background="new    " width="31" height="52" id="fleurs" xlink:href="21.png"  transform="matrix(1 0 0 1 833.9385 467.0022)">
+	</image>
+	
+		<image overflow="visible" enable-background="new    " width="59" height="184" id="canne" xlink:href="22.png"  transform="matrix(1 0 0 1 476.5 494.9182)">
+	</image>
+	
+		<image overflow="visible" enable-background="new    " width="50" height="61" id="clé" xlink:href="23.png"  transform="matrix(1 0 0 1 19.375 578.1682)">
+	</image>
+	
+		<image overflow="visible" enable-background="new    " width="69" height="98" id="gilet" xlink:href="24.png"  transform="matrix(1 0 0 1 0 376.0002)">
+	</image>
+</g>
+<g id="Layer_2">
+	<path fill="#4FFFFF" stroke="#000000" stroke-miterlimit="10" d="M878.333,512.668c0,0-22.789-4.001-13.395-18.834
+		s46.896-8.166,37.562,7.667c8,4,17.166,7.167,8.666,11.167s-20,8-21,9.5s-11.499-3.334-11.166-5.834
+		S878.333,512.668,878.333,512.668z"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M854,509.501v-20.667c0,0,7.667-18.833-10-15
+		s-3.333,17.166-1.833,16.833s0.5,22,0.5,22h11L854,509.501z"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M504.75,527.75c0,0,2.75-15.5-16.5-9
+		c-15.25-4.25-2-8.25,6.75-12.75s14.25,8.75,25.75,3c2-0.5,7.5,4.299,4,7.399s-9.5,3.101-9.5,3.101s-1.5,20.25-1.5,22.75
+		S499,667.5,498.25,669s-7.5,4.25-8.25-1.5S504.75,527.75,504.75,527.75z"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M50.5,628.834l1.167-1.667L56,622.001l-2-0.667l5.167-10.167
+		c0,0,11.333-4.999,0.833-9.666c-7.833-8-8.167-8.834-12.667-8.834s-25.5,4.167-14.833,10.667s15.833,3.333,15.833,3.333l5,4.083
+		l-8.958,14.084L50.5,628.834z"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M48.167,454.001l-5.5,0.833l-2,5.667l-3.667-5l-13.833,1.75
+		l-2,4.583h-2.833l-1.833-6.333h-9c0,0-4.833-1.167-4.333-10.667s-1-46.833,2-49.333s4-8.666,3.5-10.333s18.834-3.667,20.167-3.667
+		s5.5,2.667,5.667,4.667s11.167,4.5,11.833,3.5s4.5,8.5,4.5,8.5s0,20.834,0,23.5s-3,13.833-3,14.333S48.167,454.001,48.167,454.001z
+		"/>
+</g>
+</svg>

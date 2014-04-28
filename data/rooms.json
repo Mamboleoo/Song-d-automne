@@ -1,0 +1,108 @@
+{
+	
+		"bedroom_1":{
+			"id" : 0,
+			"name" : "bedroom_1",
+			"position" : [1630,474]
+		},
+		"readingRoom":{
+			"id" : 1,
+			"name" : "readingRoom",
+			"position" : [1165,370]
+		},
+		"smokeRoom":{
+			"id" : 2,
+			"name" : "smokeRoom",
+			"position" : [438,385]
+		},
+		"veranda":{
+			"id" : 3,
+			"name" : "veranda",
+			"position" : [315,450]
+		},
+		"firstClassBoat":{
+			"id" : 4,
+			"name" : "firstClassBoat",
+			"position" : [1625,275]
+		},
+		"wheelHouse":{
+			"id" : 5,
+			"name" : "wheelHouse",
+			"position" : [1675,382]
+		},
+		"astairs":{
+			"id" : 6,
+			"name" : "astairs",
+			"position" : [1460, 382]
+		},
+		"aelevators":{
+			"id" : 7,
+			"name" : "aelevators",
+			"position" : [1485, 382]
+		},
+		"boatDeckstairs":{
+			"id" : 8,
+			"name" : "boatDeckstairs",
+			"position" : [1432, 380]
+		},
+		"bstairs":{
+			"id" : 9,
+			"name" : "bstairs",
+			"position" : [1326, 372]
+		},
+		"cstairs":{
+			"id" : 10,
+			"name" : "bstairs",
+			"position" : [1240, 379]
+		},
+		"dstairs":{
+			"id" : 11,
+			"name" : "bstairs",
+			"position" : [1234, 375]
+		},
+		"estairs":{
+			"id" : 12,
+			"name" : "bstairs",
+			"position" : [1213, 371]
+		},
+		"fstairs":{
+			"id" : 13,
+			"name" : "bstairs",
+			"position" : [1213, 352]
+		},
+		"belevators":{
+			"id" : 14,
+			"name" : "belevators",
+			"position" : [1344, 372]
+		},
+		"celevators":{
+			"id" : 15,
+			"name" : "celevators",
+			"position" : [1255, 379]
+		},
+		"delevators":{
+			"id" : 16,
+			"name" : "celevators",
+			"position" : [1250, 375]
+		},
+		"eelevators":{
+			"id" : 17,
+			"name" : "celevators",
+			"position" : [1230, 372]
+		},
+		"felevators":{
+			"id" : 18,
+			"name" : "celevators",
+			"position" : [1192, 368]
+		},
+		"turkishBath":{
+			"id" : 19,
+			"name" : "turkishBath",
+			"position" : [1146, 430]
+		},
+		"outsideLifeBoat":{
+			"id" : 20,
+			"name" : "outsideLifeBoat",
+			"position" : [0, 0]
+		}
+}

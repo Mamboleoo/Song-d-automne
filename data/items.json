@@ -1,0 +1,735 @@
+{
+	"items":
+	[
+		{
+			"id" : 0,
+			"name" : "chaussures",
+			"weight" : 400,
+			"visible": true,
+			"room" : "bedroom_1",
+			"svgImg" 	: [71,45, "1 0 0 1 514 492.0002"],
+			"path" 		: "M568.542,504.501c2.041,0,2.833,6.499,6.333,4.374s6.75-7.994,8.5,0.44s0.25,5.81-5.875,8.81 s-14.75,16.375-26.5,15.75s-11.875-8.25-8.5-11.5c-6.625,4-25.375,10.646-26.125-3.052c1.375-10.073,13.125-6.823,15.25-11.698 S536.5,498.5,539,500.25s8.788,3.295,11.216,2.25c6.159-2.651,10.034,4.125,10.284,4.5S566.501,504.501,568.542,504.501z",
+			"choices" : [
+				{	"text": "Quelle odeur épouvantable",
+					"action" : true },
+				{	"text" : "De belles chaussures en cuir",
+					"action" : "" },
+				{	"text" : "Non",
+					"action" : "" }
+			]
+		},
+		{
+			"id" : 1,
+			"name" : "bouteille de vin",
+			"weight" : 900,
+			"visible": true,
+			"room" : "bedroom_1",
+			"svgImg" 	: [32,104, "1 0 0 1 481.6665 521.8723"],
+			"path" : "M498.75,525h6c0,0-2.5,30,0,34.5s4.5-1.25,5.5,23.5s2.25,38.5-1.25,41s-12.75,0.5-17,0s-7-6.5-7.75-9.25 s2-51,2.5-52.75s7-6,8.5-17.25S498.75,525,498.75,525z", 
+			"choices" : [
+				{	"text": "Ça peut m'être utile",
+					"action" : true },
+				{	"text" : "Une belle bouteille de Château Neuf du Pape de 1910",
+					"action" : "" },
+				{	"text" : "Hips",
+					"action" : true }
+			]
+		},
+		{
+			"id" : 2,
+			"name" : "garde robe",
+			"weight" : null,
+			"visible" : true,
+			"room" : "bedroom_1",
+			"path" : "M107.5,84.667c0,0,0-4.333,52.833-3.167c-0.667-19.667-1.5-22.167,6.167-23.333s61.833-12.333,63.833-11.667s17.167,9,17.167,9s16.333-4.667,17.333-2s4.333,14.333,4.333,14.333L299.5,78.167l9.333,18l2,24l-4.667,15l9.667,148.667 l13,188.333l-6,5.333l-2,10.334l-16,2.333l-4-8.667l-121.667-4.333l-9,13H157.5l-9.667-12.667l-31.333-2.333l-6.667,10L98.5,485.5 l-3-11l-5-1.666L101.167,87.5L107.5,84.667z",
+			"choices" : [
+				{	"text": "Cette garde robe est trop lourde pour moi",
+					"action" : false },
+				{	"text" : "Cette armoire en chêne est splendide !",
+					"action" : "" },
+				{	"text" : "Je ne pense pas",
+					"action" : "" }
+			]
+		},
+		{
+			"id" : 3,
+			"name" : "petite valise",
+			"weight" : 3000,
+			"visible" : true,
+			"room" : "bedroom_1",
+			"svgImg" 	: [117,117, "1 0 0 1 597 445.0002"],
+			"path" : "M617.5,541.75c0,0-32.75-46,29-77.5c-1.75-8,0-8.75,0-8.75l26.5,2.25l-4.5,8.5c0,0,68,27.251,11.75,85 C636,564.25,617.5,541.75,617.5,541.75z",
+			"choices" : [
+				{	"text": "C'est d'un chic",
+					"action" : true },
+				{	"text" : "C'est une simple valise ronde",
+					"action" : "" },
+				{	"text" : "Coucou valise !",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 4,
+			"name" 		: "essuie de bain",
+			"weight" 	: 300,
+			"visible" 	: true,
+			"room" 		: "turkishBath",
+			"svgImg" 	: [128,88, "1 0 0 1 315.334 374.332"],
+			"path" 		: "M320.5,409.167l36-17.667l21-10l23.333-5.333l31.667,3l4,12 l1.667,12.677l-21.333,9.656c0,0-21.333,11.334-22.667,11.667S373.5,428.5,373.5,428.5l-6.813,14.334l-13.521,7.666h-16 c0,0-13.334-2.332-14.667-4.666s-7.166-25.334-7.166-25.334L320.5,409.167z",
+			"choices" 	: [
+				{	"text": "ça tombe bien, j'ai perdu le mien.",
+					"action" : true },
+				{	"text" : "C'est un essui de bain humide.",
+					"action" : "" },
+				{	"text" : "Je n'ai pas envie.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 5,
+			"name" 		: "coussin en coton",
+			"weight" 	: 400,
+			"visible" 	: true,
+			"room" 		: "turkishBath",
+			"svgImg" 	: [112,70, "1 0 0 1 254.688 328.667"],
+			"path" 		: "M265.167,351.834l50.167-15H334.5l29.333,18l-1.333,12.333l-9,6 c0,0-37.333,17.667-39,18s-24,5-24,5s2,8.001,0.333,7.667s-30-10-30-10l-3.333-35L265.167,351.834z",
+			"choices" 	: [
+				{	"text": "Peut-être que je dormirai mieux cette nuit.",
+					"action" : true },
+				{	"text" : "Il est plein d'eau.",
+					"action" : "" },
+				{	"text" : "Non.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 6,
+			"name" 		: "horloge",
+			"weight" 	: 500,
+			"visible"	: true,
+			"room" 		: "turkishBath",
+			"svgImg" 	: [74,75, "1 0 0 1 143.4351 70.9844"],
+			"path" 		: "M154.167,94.5l20-23.516l23.333,3.849l9,16.667v32.333 l-9.333,17.667l-16.731,2l-18.602,2.484c0,0-11.333-17.484-11.333-18.484S154.167,94.5,154.167,94.5z",
+			"choices" 	: [
+				{	"text": "Elle ira bien dans ma chambre.",
+					"action" : true },
+				{	"text" : "C'est une horloge en bois.",
+					"action" : "" },
+				{	"text" : "Elle ne parle pas.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 7,
+			"name" 		: "coussin",
+			"weight" 	: 350,
+			"visible"	: true,
+			"room" 		: "smokeRoom",
+			"svgImg" 	: [32,24, "1 0 0 1 299.5005 145.1682"],
+			"path" 		: "M314.75,150c7,0,11.75,1.938,11.75,8.188c0,4.522-2.625,8.188-11.75,8.188 c-6.489,0-11.75-1.501-11.75-8.188C303,152.688,308.261,150,314.75,150z",
+			"choices" 	: [
+				{	"text": "Quelle douceur.",
+					"action" : true },
+				{	"text" : "Il est rond, il est doux. Il est rondoux!",
+					"action" : "" },
+				{	"text" : "Il ne me répond pas.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 8,
+			"name" 		: "verres à whisky",
+			"weight" 	: 350,
+			"visible"	: true,
+			"room" 		: "smokeRoom",
+			"svgImg" 	: [43,38, "1 0 0 1 330.75 318.2502"],
+			"path" 		: "M347.875,350.375c0.937-0.334,7.625-2.75,7.625-2.75l1.25-7l8.75-6.25 c0,0,0.083-8.292-2.375-9.625s-9,0-9,0l-3.875,6.375l-8.875,4.625l-3.5,7.375l3,5.875C340.875,349,346.938,350.709,347.875,350.375 z",
+			"choices" 	: [
+				{	"text": "Chouette il y a encore un peu de whisky dedans.",
+					"action" : true },
+				{	"text" : "Deux petits verres en cristal.",
+					"action" : "" },
+				{	"text" : "Il vibre, c'est amusant.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 9,
+			"name" 		: "cigares",
+			"weight" 	: 200,
+			"visible"	: true,
+			"room" 		: "smokeRoom",
+			"svgImg" 	: [87,80, "1 0 0 1 619.9561 502.9475"],
+			"path" 		: "M644.25,515.5c0,0,3.75-2.125,5.75-2.25s15.5,12,15.5,12h6.5l24.75,9L698.5,545l-27.125,31 L659,571.25L640.75,559l-1.25-4.75l-5.25-0.5L623.75,542v-9.75L644.25,515.5z",
+			"choices" 	: [
+				{	"text": "Ils ont l'air chers.",
+					"action" : true },
+				{	"text" : "Des beaux cigares cubains.",
+					"action" : "" },
+				{	"text" : "Waw qu'il est bon ce cigare ! Mais je me sens un peu malade.",
+					"action" : true }
+			]
+		},
+		{
+			"id" 		: 10,
+			"name" 		: "seau à glace",
+			"weight" 	: 1800,
+			"visible"	: true,
+			"room" 		: "smokeRoom",
+			"svgImg" 	: [63,66, "1 0 0 1 936.6367 361.7502"],
+			"path" 		: "M943.833,370.834l20.5-1l17.5,1l5.833,5l7.167,1.167L993,385.666h-5.167l-9,31.666 c0,0-10.333,4.669-21.333,0.835s-7.334-21.5-7.334-21.5l-1-12.667l-2.666-3.5l-4.5-3C942,377.5,940.666,371.834,943.833,370.834z",
+			"choices" 	: [
+				{	"text": "Aouch c'est froid.",
+					"action" : true },
+				{	"text" : "Il y a pleins de glaçons dedans.",
+					"action" : "" },
+				{	"text" : "C'est froid, je n'aime pas ça.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 11,
+			"name" 		: "sofa",
+			"weight" 	: 10000,
+			"visible"	: true,
+			"room" 		: "smokeRoom",
+			"svgImg" 	: [271,143, "1 0 0 1 44.208 625.0002"],
+			"path" 		: "M306,768v-47l3.5-10.25l-16.5-14.5c0,0-35.75,9.75-59.75,3.5S162,657.5,155.75,653 s-40.75-24.25-82-16.5S45,675,45,675l3.5,3.5l7.75,56.25c0,0,7.25,30.5,17.75,33.25",
+			"choices" 	: [
+				{	"text": "Oula c'est lourd.",
+					"action" : true },
+				{	"text" : "Je n'aime vraiment pas cette couleur verte.",
+					"action" : "" },
+				{	"text" : "Non, c'est un sofa.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 12,
+			"name" 		: "cendrier",
+			"weight" 	: 400,
+			"visible"	: true,
+			"room" 		: "smokeRoom",
+			"svgImg" 	: [87,63, "1 0 0 1 143.916 591.5002"],
+			"path" 		: "M152.75,616c0,0,9.25-19.75,37-18.25s37.25,21,29.5,33s-25,18.25-46,15.75 S144,629.25,152.75,616z",
+			"choices" 	: [
+				{	"text": "Eh mais il y a une clé en dessous des cendres.",
+					"action" : true },
+				{	"text" : "C'est un cendrier classique.",
+					"action" : "" },
+				{	"text" : "Non",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 13,
+			"name" 		: "journal",
+			"weight" 	: 200,
+			"visible"	: true,
+			"room" 		: "smokeRoom",
+			"svgImg" 	: [107,92, "1 0 0 1 181.666 597.9983"],
+			"path" 		: "M218,635.25L249.25,604c0,0,13.75,3,21.5,6.75s16,16,16,16l-66,61.75l-18-9.25L188,665.5 v-6.25L218,635.25z",
+			"choices" 	: [
+				{	"text": "Chouette il y a des mots croisés.",
+					"action" : true },
+				{	"text" : "On dirait l'édition de l'Atlantic Daily Bulletin de ce matin.",
+					"action" : "" },
+				{	"text" : "Je n'ai pas faim à ce point.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 14,
+			"name" 		: "livre",
+			"weight" 	: 450,
+			"visible"	: true,
+			"room" 		: "readingRoom",
+			"svgImg" 	: [51,52, "1 0 0 1 255.9238 516.002"],
+			"path" 		: "M276.625,522.625c0,0,27.25,0.25,27.125,4.125 s-4,9.875-4.375,10.75s-15.875,22.875-17,23.125s-10.875,0.5-11.375,0s-17.875,0.25-14.5-9.125S276.625,522.625,276.625,522.625z",
+			"choices" 	: [
+				{	"text": "",
+					"action" : true },
+				{	"text" : ".",
+					"action" : "" },
+				{	"text" : "",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 15,
+			"name" 		: "tasse de thé",
+			"weight" 	: 200,
+			"visible"	: true,
+			"room" 		: "readingRoom",
+			"svgImg" 	: [36,41, "1 0 0 1 448.9946 414.459"],
+			"path" 		: "M458.625,439.75c0,0-2.5-2.125-1.25-9.75 s11.875-8.875,11.875-8.875s7.625,4.25,7.625,4.625s-1.125,5.5-1.625,6s0,6.75,1,6.75s5.5,4.125,5.5,5.375s-5.25,5.5-7.375,6.25 s-21.75-2.375-21.75-4.125S458.625,439.75,458.625,439.75z",
+			"choices" 	: [
+				{	"text": "Erk, elle est en porcelaine. Je déteste la procelaine.",
+					"action" : true },
+				{	"text" : "C'est une tasse de thé vide.",
+					"action" : "" },
+				{	"text" : "Je n'ai pas envie de thé.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 16,
+			"name" 		: "télégramme",
+			"weight" 	: 20,
+			"visible"	: true,
+			"room" 		: "readingRoom",
+			"svgImg" 	: [47,34, "1 0 0 1 279.1826 283.0781"],
+			"path" 		: "M286.833,306c0,0,23.833,2.5,25.167,5s7.5-11.333,5.167-12s-5.333,0.833-4.5-4.167c-1.667-3.833-11.334-3-13.167,0c-6.167,0.167-5.666-0.167-6.833,1 S286.833,306,286.833,306z",
+			"choices" 	: [
+				{	"text": "Oh c'est un message d'amour.",
+					"action" : true },
+				{	"text" : "Je n'arrive pas à lire ce qui est écrit.",
+					"action" : "" },
+				{	"text" : "Peut-être pas.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 17,
+			"name" 		: "livre",
+			"weight" 	: 350,
+			"visible"	: true,
+			"room" 		: "readingRoom",
+			"svgImg" 	: [71,48, "1 0 0 1 849.082 463.667"],
+			"path" 		: "M857.333,487.667c0,0,0.667-6.666,2.167-7.5 s30.833-13.834,30.833-13.834l23.333,14.334l-1.833,7c0,0-33.167,17.833-36,16.833S857.333,487.667,857.333,487.667z",
+			"choices" 	: [
+				{	"text": "",
+					"action" : true },
+				{	"text" : "",
+					"action" : "" },
+				{	"text" : "",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 18,
+			"name" 		: "chapeau de femme",
+			"weight" 	: 400,
+			"visible"	: true,
+			"room" 		: "readingRoom",
+			"svgImg" 	: [97,121, "1 0 0 1 38.877 144.1162"],
+			"path" 		: "M62.25,199.5c0,0,12.5,61.5,41.25,56 c11.27-3.131,11.5-14,11.5-14s7.75,2.75,9.5,1.5s12.25-24-16.5-24c0.75-13.5-22.75-42.75-30-38.5C78.5,171,58.5,153,54.75,153 s-5.75,11.5-5.5,13.5s8,12,8,12L62.25,199.5z",
+			"choices" 	: [
+				{	"text": "Il y a une belle plume de paon.",
+					"action" : true },
+				{	"text" : "Ma maman avait le même chapeau à son enterrement.",
+					"action" : "" },
+				{	"text" : "Mauvaise idée.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 19,
+			"name" 		: "feu de cheminée",
+			"weight" 	: 30,
+			"visible"	: true,
+			"room" 		: "readingRoom",
+			"svgImg" 	: [301,278, "1 0 0 1 410.9736 91.959"],
+			"path" 		: "M543.833,188.667c0,0,30-3.333,30-1.5 s-1.666,29.833-1.666,32.667s-21.834,6.102-24.834,5.602C543.5,223.333,543.833,197.834,543.833,188.667z",
+			"choices" 	: [
+				{	"text": "Aouch Aouch Aouch c'est chaud !",
+					"action" : true },
+				{	"text" : "C'est un beau feu de cheminée.",
+					"action" : "" },
+				{	"text" : "Je vais me brûler la langue si je mange ça.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 20,
+			"name" 		: "assiette presque vide",
+			"weight" 	: 250,
+			"visible"	: true,
+			"room" 		: "veranda",
+			"svgImg" 	: [65,49, "1 0 0 1 859.502 478.0039"],
+			"path" 		: "M878.333,512.668c0,0-22.789-4.001-13.395-18.834 s46.896-8.166,37.562,7.667c8,4,17.166,7.167,8.666,11.167s-20,8-21,9.5s-11.499-3.334-11.166-5.834 S878.333,512.668,878.333,512.668z",
+			"choices" 	: [
+				{	"text": "Berk berk berk.",
+					"action" : true },
+				{	"text" : "On dirait que quelqu'un n'a pas fini son assiette.",
+					"action" : "" },
+				{	"text" : "Je ne vais pas manger cela ici.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 21,
+			"name" 		: "petit bouquet de fleurs",
+			"weight" 	: 120,
+			"visible"	: true,
+			"room" 		: "veranda",
+			"svgImg" 	: [31,52, "1 0 0 1 833.9385 467.002"],
+			"path" 		: "M854,509.501v-20.667c0,0,7.667-18.833-10-15 s-3.333,17.166-1.833,16.833s0.5,22,0.5,22h11L854,509.501z",
+			"choices" 	: [
+				{	"text": "Il faudrait que je leur trouve de l'eau rapidement.",
+					"action" : true },
+				{	"text" : "De magnifiques fleurs !",
+					"action" : "" },
+				{	"text" : "Elles n'ont pas l'air très comestibles.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 22,
+			"name" 		: "canne",
+			"weight" 	: 120,
+			"visible"	: true,
+			"room" 		: "veranda",
+			"svgImg" 	: [59,184, "1 0 0 1 476.5 494.9189"],
+			"path" 		: "M504.75,527.75c0,0,2.75-15.5-16.5-9 c-15.25-4.25-2-8.25,6.75-12.75s14.25,8.75,25.75,3c2-0.5,7.5,4.299,4,7.399s-9.5,3.101-9.5,3.101s-1.5,20.25-1.5,22.75 S499,667.5,498.25,669s-7.5,4.25-8.25-1.5S504.75,527.75,504.75,527.75z",
+			"choices" 	: [
+				{	"text": "Je suis maintenant un vrai gentleman.",
+					"action" : true },
+				{	"text" : "Le manche de cette canne est en ivoire. Quel chic !",
+					"action" : "" },
+				{	"text" : "Hum, sans commentaire.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 23,
+			"name" 		: "clé",
+			"weight" 	: 75,
+			"visible"	: true,
+			"room" 		: "veranda",
+			"svgImg" 	: [50,61, "1 0 0 1 19.375 578.168"],
+			"path" 		: "M50.5,628.834l1.167-1.667L56,622.001l-2-0.667l5.167-10.167 c0,0,11.333-4.999,0.833-9.666c-7.833-8-8.167-8.834-12.667-8.834s-25.5,4.167-14.833,10.667s15.833,3.333,15.833,3.333l5,4.083 l-8.958,14.084L50.5,628.834z",
+			"choices" 	: [
+				{	"text": "Je me demande ce qu'elle ouvre.",
+					"action" : true },
+				{	"text" : "Cette petite clé a été laissée tomber ici.",
+					"action" : "" },
+				{	"text" : "Je vais m'étrangler en mangeant ça.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 24,
+			"name" 		: "gilet de sauvetage",
+			"weight" 	: 430,
+			"visible"	: true,
+			"room" 		: "veranda",
+			"svgImg" 	: [69,98, "1 0 0 1 0 376"],
+			"path" 		: "M48.167,454.001l-5.5,0.833l-2,5.667l-3.667-5l-13.833,1.75 l-2,4.583h-2.833l-1.833-6.333h-9c0,0-4.833-1.167-4.333-10.667s-1-46.833,2-49.333s4-8.666,3.5-10.333s18.834-3.667,20.167-3.667 s5.5,2.667,5.667,4.667s11.167,4.5,11.833,3.5s4.5,8.5,4.5,8.5s0,20.834,0,23.5s-3,13.833-3,14.333S48.167,454.001,48.167,454.001z",
+			"choices" 	: [
+				{	"text": "Chouette je serai élégant avec ce gilet.",
+					"action" : true },
+				{	"text" : "C'est un gilet de sauvetage en liège.",
+					"action" : "" },
+				{	"text" : "Non.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 25,
+			"name" 		: "enfant perdu",
+			"weight" 	: 30000,
+			"visible"	: true,
+			"room" 		: "firstClassBoat",
+			"svgImg" 	: [136,146, "1 0 0 1 603.1191 594.9521"],
+			"path" 		: "M615.501,652.333c0,0,8.167-21.167,10.5-25.5 s-0.166-4.666-2.5-4.666s-5.167-5.334-3.167-7.167s4.334-3.333,5.167-6.333s12.833-8.333,14.333-7s2.499,3.666,4.333,3.333 s12.834,6.166,13.667,6.833s2.5,7.5,0,10.167s-8.167,6.999-8.167,11.833s3.5,12.5,3.5,15.667s-2.833,15.404-2.833,18.452 s1.501,9.381,1.667,11.548s0,4.833,2.5,4.833s4.666-0.332,1.166,2.834s-6.5,4.666-9.333,4.666s-3.833,2.166-3.833-4 s-0.5-11.667-1-12.5s-6.166-2-7,3.167s-3.001,12.167-4.834,13s-8.499,2.904-9.666,0.702s3.167-1.702,4-6.702s0.167-10.666-1-12.333 s-4.834-6.334-6.667-7.334s-10-6.834-8-9S615.501,652.333,615.501,652.333z",
+			"choices" 	: [
+				{	"text": "Eh mais je ne suis pas un kidnappeur moi !",
+					"action" : true },
+				{	"text" : "Cet enfant a l'air tout seul.",
+					"action" : "" },
+				{	"text" : "Il pleure trop fort, impossible de communiquer",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 26,
+			"name" 		: "gilet de sauvetage",
+			"weight" 	: 430,
+			"visible"	: true,
+			"room" 		: "firstClassBoat",
+			"svgImg" 	: [53,120, "1 0 0 1 -0.9478 439.9688"],
+			"path" 		: "M0.5,521.75c0-1.5,16.5-56,22-59.75s15.5-10,17.75-9.75 S38.5,488.5,38.5,489.5S26,524,23.25,525.75s-12.5,11-12.5,11H0L0.5,521.75z",
+			"choices" 	: [
+				{	"text": "Il devrait m'être utile.",
+					"action" : true },
+				{	"text" : "Tout le monde porte le même.",
+					"action" : "" },
+				{	"text" : "Je n'ai pas encore perdu toute ma tête.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 27,
+			"name" 		: "nécessaire de toilette",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "bedroom_1",
+			"path" 		: "M895.167,378.834c-4-1.667-6.666,1.667-8-3.333s4-28.667,4-28.667 s1.334-2.333,2-4.333s6-2.333,6.333,0s5.333,3.667,5.333,3.667s2.668-27.333,5.334-28.333s5-12.667,9.333-9.667 s1.666,7.333,4.333,10s5.333,10.333,6,17s5.667,8,7.667,12s12.666,4.333,15.333,4.333s0.666,7.667,0,11.667 s0.001,13.334-1.666,15.667S941.5,383.5,931.5,384S895.167,378.834,895.167,378.834z",
+			"choices" 	: [
+				{	"text": "Je suis déjà très propre.",
+					"action" : false },
+				{	"text" : "C'est un ensemble de produit pour se laver.",
+					"action" : "" },
+				{	"text" : "Ça ne doit pas être très bon.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 28,
+			"name" 		: "paire de lunette",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "bedroom_1",
+			"path" 		: "M917.834,583.167c-3,0-8.5-0.833-7.5-2.333 s3.667-3.667,10.5-4.667s21.833,0.334,23.333,0.834s5.834,2.499,1.334,6.166s-6.833,4.168-8,8.334s0.166,7.666-4.667,7.666 s-5.334,2.333-11.667,0s-8.166-2.999-9.333-1.166s-10.166,6.166-7.333,1.166s6.333-6.333,10.333-6.833s10.001-4.001,7.667-5.667 S917.834,583.167,917.834,583.167z",
+			"choices" 	: [
+				{	"text": "Ma vue est impeccable, pourquoi en aurais-je besoin ?",
+					"action" : false },
+				{	"text" : "Une vieille paire de lunettes.",
+					"action" : "" },
+				{	"text" : "Ah ah... non.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 29,
+			"name" 		: "pipe en bois",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "bedroom_1",
+			"path" 		: "M853.125,737.875c0,0,16.25-4.125,22-1.125 s17.625,13.25,26.625,3.125s-14.25-12.375-15.25-6.25c-8.625-3.625-29.25-6.25-31.375-2.125s-2,6-2,6",
+			"choices" 	: [
+				{	"text": "Cette pipe ne m'appartient pas.",
+					"action" : false },
+				{	"text" : "Elle est vraiment jolie cette pipe.",
+					"action" : "" },
+				{	"text" : "Pourquoi ?",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 30,
+			"name" 		: "grand miroir",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "bedroom_1",
+			"path" 		: "M886.953,324L889,121l-13-8l-24.5,9l-39-12c0,0-12,10.5-22,9 s-29.5,9.5-29.5,9.5L753.5,296l7.5,5l-0.5,19L886.953,324z",
+			"choices" 	: [
+				{	"text": "Il est fixé au mur.",
+					"action" : false },
+				{	"text" : "Je suis un peu pâle je trouve.",
+					"action" : "" },
+				{	"text" : "Miroir mon beau Miroir, suis-je le plus beau ?",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 31,
+			"name" 		: "petites lampes murales",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "bedroom_1",
+			"path" 		: "M540.833,208.5c0,0,15.334-12.333,14.334-12.667s6-19,6-19 l9.333-5.667l-7-25.333h-11l-8.333,27.667l-11.667-2.667l-4-25h-12.333l-5.667,24.333l6,1.667c0,0,22,32,22,35 s-174.667-2.667-174.667-2.667s28.667-24.333,28.667-25.333s-1.667-24-3-25s-19.333-2-20,1.667s-0.667,16.333-0.667,16.333 s-11.667-8-12.333-12.333s-15.667-5-16.667-2.667s-4.667,22-4.333,23s12.667,7.667,14.333,9.333s7.667,17.667,7.667,17.667 l6.333-2.667",
+			"choices" 	: [
+				{	"text": "Elle sont solidement fixées.",
+					"action" : false },
+				{	"text" : "Ces petites lampes sont tout à fait charmantes.",
+					"action" : "" },
+				{	"text" : "On ne parle pas à des lampes.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 32,
+			"name" 		: "lustre",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "readingRoom",
+			"path" 		: "M379,48c2-9.5,18-6.333,19.167-5.667s0-10,0-10 S416.333,33.5,417,33.667s8.667-0.166,5.833,1.667s-5.167,4.833-5.167,5.5s25.5,6.333,24.833,8.833s-9.667,20.5-27.667,20.5 S377,57.5,379,48z",
+			"choices" 	: [
+				{	"text": "Il me faudrait un tournevis.",
+					"action" : false },
+				{	"text" : "Ce lustre brille de mille feux.",
+					"action" : "" },
+				{	"text" : "Je ne suis pas fou.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 33,
+			"name" 		: "petite horloge",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "readingRoom",
+			"path" 		: "M541.625,142.625c0,0-1.75-16,0-18.75 s7.5-8.625,8.625-9.375s11.125,5.75,10,7.375s2.75,2,2.75,2s2,16.875,2,18.75S541.625,142.625,541.625,142.625z",
+			"choices" 	: [
+				{	"text": "On dirait qu'elle est fixée au marbre.",
+					"action" : false },
+				{	"text" : "Il est 15h.",
+					"action" : "" },
+				{	"text" : "Siri, quelle heure est-il ?",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 34,
+			"name" 		: "manteau",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "readingRoom",
+			"path" 		: "M41.167,309.834c0-5.667-2.29-30.333-2.29-38.667S36.5,233.5,36.5,222.834s-2.377-25,0-29.333 s2.944-7,1.805-10.333s9.319-10.333,10.924-9s8.167,4.945,8.485,6.282s21.12,68.384,21.786,69.384s-4,16-4,19.333 s-2.333,27.822-3.333,30.911s-18.208,15.089-22.938,14.089S41.167,309.834,41.167,309.834z",
+			"choices" 	: [
+				{	"text": "Il est trop grand pour moi.",
+					"action" : false },
+				{	"text" : "Il est recouvert de poil de chien. Aaaatchoum",
+					"action" : "" },
+				{	"text" : "Je n'ai pas envie de lécher ce manteau.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 35,
+			"name" 		: "pilier",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "readingRoom",
+			"path" 		: "M736.5,0c0,0-7,721.5-8,725.5s14,32,78,0V0H736.5z",
+			"choices" 	: [
+				{	"text": "Il est bien trop lourd.",
+					"action" : false },
+				{	"text" : "C'est un pilier en bois.",
+					"action" : "" },
+				{	"text" : "Non.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 36,
+			"name" 		: "pot en terre",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "readingRoom",
+			"path" 		: "M967.5,547c0-7.5-13-25.977-11.5-28.738 s13,9.738,14.5-6.762s-13.121-26.131-7.311-26.065S971.217,473,970.608,473s-14.349,8-14.729,2.5s0-63,0-63L994,381l-49.5-38.5 l-29.911,31v26L945,409v67.5l-23.5,2l-2,4l15,2.935L925,509l11.5,9.262l12,4.738l-7,5.5l-10.5,7l1.5,11.5H967.5z",
+			"choices" 	: [
+				{	"text": "Je ne sais pas quoi en faire.",
+					"action" : false },
+				{	"text" : "Il y a un joli arbuste planter dedans.",
+					"action" : "" },
+				{	"text" : "Je ne parle qu'aux tomates.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 37,
+			"name" 		: "fauteuil",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "readingRoom",
+			"path" 		: "M534,740.654L555.5,696c0,0,81.5,12.5,87,12 s16.5,25,16.5,25v-18.5l60-229.065h-20L651.5,543l-55.5-2l-4,17l-19.5,36l-19,19.044L543,647l-6,30.5l4.5,9L534,740.654z",
+			"choices" 	: [
+				{	"text": "Ce jaune me donne de l'urticaire.",
+					"action" : false },
+				{	"text" : "Il est tout recouvert de velours.",
+					"action" : "" },
+				{	"text" : "Je ne pense pas.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 38,
+			"name" 		: "tapis persan",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "readingRoom",
+			"path" 		: "M309.667,511.5c0,0,44.833-75.5,49.333-80.5 s-130.5-16.541-130.5-16.541S196.5,480,197,483s4,75.5,4,75.5L60,547c0,0-2.5-74.5,50-74c13.5-3.5,9,15.5,11,4.5s4.5-56.5,44-67 c-28.5-12-129.557-13-129.557-13L13,499c0,0,2,25,0,31s47,17,47,17l141,11.5l39.5,3.9l35.5-44.9L309.667,511.5z",
+			"choices" 	: [
+				{	"text": "Ma chambre n'est pas assez grande.",
+					"action" : false },
+				{	"text" : "Ce tapis est splendide.",
+					"action" : "" },
+				{	"text" : "On ne mange pas ce genre de choses.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 39,
+			"name" 		: "tableau",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "smokeRoom",
+			"path" 		: "M53.5,158.188L48,150c0,0,12.5-10,15.5-8 s6,2.336,21.5,3.168S128,137,134.5,134.5s12.5,5,18.5,6.5s45.5,0.5,45.5,0.5s-2,7,0,19.5s-1.5,74,0,77.5s-18.5,21-21,13.5 s-15,2.699-41.5,1.85s-73,0.051-73,0.051s-9,5.6-6.5-13.9S53.5,158.188,53.5,158.188z",
+			"choices" 	: [
+				{	"text": "Ils l'ont solidement attaché ces radins.",
+					"action" : false },
+				{	"text" : "On dirait un Monet.",
+					"action" : "" },
+				{	"text" : "On ne parle pas aux tableaux.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 40,
+			"name" 		: "lampe",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "smokeRoom",
+			"path" 		: "M844,286c0,0,0,10.5,0-14s-5.5-16.5,0-18 s13.5-6,13.5-10.5s5-5,5-5l-13-19l-21,12l-6.5,5c0,0,10,3.5,11.5,8.5s-1,38.5-1,38.5l-4.5,4.737L844,286z",
+			"choices" 	: [
+				{	"text": "J'ai peur de m'électrocuter.",
+					"action" : false },
+				{	"text" : "J'aime beaucoup son style.",
+					"action" : "" },
+				{	"text" : "Non.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 41,
+			"name" 		: "boîte",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "smokeRoom",
+			"path" 		: "M134.5,300c0-1.5-1-13.5,0-15s-6.5-6-23-5.5 s-18,7.461-19.5,10.23S95,307,95,307l9,6L134.5,300z",
+			"choices" 	: [
+				{	"text": "J'ai peur qu'on me voit.",
+					"action" : false },
+				{	"text" : "Cette une petite boîte.",
+					"action" : "" },
+				{	"text" : "Pourquoi ferais-je cela?",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 42,
+			"name" 		: "journal",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "smokeRoom",
+			"path" 		: "M584.25,322.5c0,0,20,5.25,20.75,5.25s16.5-5.25,16.5-5.25v11 c0,0-10.75,4.5-12,7S591.75,358,590.75,358s-8.25-5.75-8.25-5.75L584.25,322.5z",
+			"choices" 	: [
+				{	"text": "Ce monsieur est en train de le lire.",
+					"action" : false },
+				{	"text" : "C'est le New York Times de la semaine passée.",
+					"action" : "" },
+				{	"text" : "Pas question.",
+					"action" : "" }
+			]
+		},
+		{
+			"id" 		: 43,
+			"name" 		: "canot de sauvetage",
+			"weight" 	: null,
+			"visible"	: true,
+			"room" 		: "firstClassBoat",
+			"path" 		: "M624.5,299.834c0,0-34.666-25.334-22.666-48.667 s41.333-28.667,41.333-28.667s67.335,14,99.333,32.667s66,82,66.667,90.667S789.834,390.5,789.834,390.5s-27.334,4.667-30.667,2.667 S624.5,299.834,624.5,299.834z",
+			"choices" 	: [
+				{	"text": "",
+					"action" : "interaction" },
+				{	"text" : "Ce canot de sauvetage ne contient que des femmes.",
+					"action" : "" },
+				{	"text" : "Pas le temps.",
+					"action" : "" }
+			]
+		}
+	]
+}

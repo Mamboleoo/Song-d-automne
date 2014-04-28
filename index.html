@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Songe d'automne et autres histoires...</title>
+
+	<link rel="stylesheet" href="css/build/style.css" type="text/css" />
+	
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="libs/angular.min.js"></script>
+	<script type="text/javascript" src="libs/angular-animate.js"></script>
+
+	<style>
+	
+	</style>
+</head>
+<body ng-app="tfe" ng-controller="globalController" ng-keydown="keyDown($event)" ng-keyup="keyUp($event)" ng-mouseup="itemsUp()">
+	<!-- THE SCENE OF THE GAME -->
+	<section class="view" ng-controller="viewController" ng-class="{blurry : data.guides.visible}" ng-click="viewClicked()">
+		<ng-include src="'img/rooms/rooms.svg'"></ng-include>
+		<div class="choices" ng-class="{visible : data.choices.visible, choiceHover1 : choiceHover1, choiceHover2 : choiceHover2, choiceHover3 : choiceHover3}">
+			<span ng-mouseup="choice(0)" ng-mouseenter="choiceHover1=true" ng-mouseleave="choiceHover1=false"></span>
+			<span ng-mouseup="choice(1)" ng-mouseenter="choiceHover2=true" ng-mouseleave="choiceHover2=false"></span>
+			<span ng-mouseup="choice(2)" ng-mouseenter="choiceHover3=true" ng-mouseleave="choiceHover3=false"></span>
+		</div>
+		<p class="itemName" ng-class="{hidden : !data.itemName.visible}">{{item}}</p>
+		<p class="itemInteraction" ng-class="{visible : data.items.interaction.visible}">{{data.interactionSentence}}</p>
+	</section>
+	<!-- THE GUIDES -->
+	<section class="guides" ng-controller="guidesController" ng-class="{visible : data.guides.visible}" ng-show="data.chapter < 3">
+		<!-- MENU OF GUIDES -->
+		<ul class="menu">
+			<li ng-click="guideChoice(0)">Carte</li>
+			<li ng-click="guideChoice(1)">Inventaire</li>
+			<li ng-click="guideChoice(2)">Succès</li>
+			<li ng-click="guideChoice(3)">Réglages</li>
+			<li ng-click="guideChoice(4)">Télégrammes</li>
+		</ul>
+		<!-- THE MAP -->
+		<div map class="guideSection map" zoom="zoom" ng-class="{visible : data.guides.active == 0}">
+			<span class="playerName" ng-show="playerNameVisi">{{playerHoverName}}</span>
+			<!-- Name of the floor -->
+			<p class="floorName">{{data.actualFloor | currentFloorName}}</p>
+			<!-- Both gradient -->
+			<div class="gradient fadeInOut" ng-show="data.stillMapLeftAvailable" ></div>
+			<div class="gradient fadeInOut" ng-show="data.stillMapRightAvailable" ></div>
+
+			<!-- Elevators Choices -->
+			<div class="elevatorsChoices floorChoice" ng-show="data.elevators" ng-mousemove="elevatorHandle($event)" ng-mouseup="elevatorHandleUp()">
+				<div class="quit" ng-click="data.elevators = false">Quit</div>
+				<svg width="453px" height="453px">
+					<polygon ng-click="elevatorHandleUp('a')" points="226.5,226.5 300.5,59.5 221.5,41 "/>
+					<polygon ng-click="elevatorHandleUp('b')" points="309.5,65 226.5,226.5 383,130.5 "/>
+					<polygon ng-click="elevatorHandleUp('c')" points="389,138.5 415.5,236 226.5,226.5 "/>
+					<polygon ng-click="elevatorHandleUp('d')" points="376.5,343.5 415.5,245.5 226.5,226.5 "/>
+					<polygon ng-click="elevatorHandleUp('e')" points="370.5,353 296,404.5 226.5,226.5 "/>
+					<polygon ng-click="elevatorHandleUp('f')" points="291,408 212,423 226.5,226.5 "/>
+				</svg>
+				<div class="elevatorHandle"></div>
+			</div>
+
+			<!-- Stairs Choices -->
+			<div class="stairsChoice floorChoice" ng-show="data.stairs">
+				<div class="quit" ng-click="data.stairs = false">Quit</div>
+				<ul>
+					<li ng-class="{workInProgress : !stairs.up}"  ng-click="data.actualFloor = stairs.up;data.actualRoom = stairs.up+'stairs'; data.stairs = false">Monter</li>
+					<li ng-class="{workInProgress : !stairs.down}" ng-click="data.actualFloor = stairs.down;data.actualRoom = stairs.down+'stairs'; data.stairs = false">Descendre</li>
+				</ul>
+			</div>
+
+			<!-- Map included -->
+			<ng-include id="mapInclude" src="'img/maps/'+data.actualFloor+'.svg'" onload="mapLoaded()" ng-mousemove="mapMoves($event)"></ng-include>
+		</div>
+		<!-- INVENTORY -->
+		<div class="guideSection inventory" ng-class="{visible : data.guides.active == 1}">
+			<ul>
+				<li ng-repeat="item in data.inventory">
+					<!-- {{data.items[item].name}} -->
+					<img ng-src="img/items/{{item}}.png" ng-mousedown="itemsChoicesInv($event, item)" alt="" draggable="false">
+				</li>
+			</ul>
+			<div class="choicesInv" ng-class="{visible : data.choicesInv.visible, choiceHover1 : choiceHover1Inv, choiceHover2 : choiceHover2Inv, choiceHover3 : choiceHover3Inv}">
+				<span ng-mouseup="choiceInv(0)" ng-mouseenter="choiceHover1Inv=true" ng-mouseleave="choiceHover1Inv=false"></span>
+				<span ng-mouseup="choiceInv(1)" ng-mouseenter="choiceHover2Inv=true" ng-mouseleave="choiceHover2Inv=false"></span>
+				<span ng-mouseup="choiceInv(2)" ng-mouseenter="choiceHover3Inv=true" ng-mouseleave="choiceHover3Inv=false"></span>
+			</div>
+		</div>
+		<!-- ACHIVEMENTS -->
+		<div class="guideSection achievements" ng-class="{visible : data.guides.active == 2}">ACHIEVEMENTS</div>
+		<div class="guideSection settings" ng-class="{visible : data.guides.active == 3}">SETTINGS</div>
+		<div class="guideSection telegrammes" ng-class="{visible : data.guides.active == 4}" ng-controller="teleCtrl">
+			<h1>Chat</h1>
+			<div>
+				<div class="teleWrap">
+					<p ng-repeat="msg in msgs"><span>{{msg.author}} :</span>{{msg.msg}}</p>
+				</div>
+				<form action="" ng-submit="sendMsg()">
+					<input type="text" ng-model="msg.text" />
+					<input type="submit">
+				</form>
+			</div>
+		</div>
+	</section>
+	<!-- CHAPTERS -->
+	<section class="chapters chapterFade {{'chapter'+data.chapter}}" ng-class="{'visible' : data.chaptersVisible}">
+		
+	</section>
+	<!-- QUIT THE GAME -->
+	<section class="quitGame" ng-mouseenter="quitGameShow = true" ng-mouseleave="quitGameShow = false">
+		<div ng-class="{visible : quitGameShow}" onclick="window.close()">Quit</div>
+	</section>
+	<!-- Notifications -->
+	<ul class="notifs">
+		<li class="notification" ng-show="data.notification.visible">{{data.notification.msg}}</li>
+	</ul>	
+
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/controllers.js"></script>
+	<script type="text/javascript" src="js/directives.js"></script>
+	<script type="text/javascript" src="js/filters.js"></script>
+	<script type="text/javascript" src="js/interactions.js"></script>
+	<script type="text/javascript" src="js/sounds.js"></script>
+	<script type="text/javascript" src="js/paths.js"></script>
+
+</body>
+</html>

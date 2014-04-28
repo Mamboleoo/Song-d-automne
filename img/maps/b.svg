@@ -1,0 +1,8 @@
+<svg width="1956px" height="748px">
+	<g id="groupMaps" transform="matrix(1 0 0 1 -932 0)">
+		<image width="1956" height="748" xlink:href="img/maps/b.png"  transform="matrix(1 0 0 1 0 0)" />
+		<path ng-class="{active : data.actualRoom =='bstairs'}" ng-click="stairChoice('a', 'c')" d="M1333.667,348.942h-27.697 c-3.766,0-7.533,5.166-7.637,11.079c0,8.609,0,23.935,0,23.935c0.408,4.937,3.361,10.675,6.874,11.364c1.527,0,28.46,0,28.46,0 V348.942z"/>
+		<rect ng-class="{active : data.actualRoom =='belevators'}" ng-click="elevators()" x="1334.834" y="348.942"  width="17.667" height="46.378" />
+		<circle class="pawn" id="pawn" r="10"/>
+	</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="1024px" height="768px">
+	<image xlink:href="{{'img/rooms/'+data.actualRoom+'/'+data.actualRoom+'.jpg'}}"
+		width="1024"
+		height="768"
+	/>
+	<path ng-repeat="img in data.items | filter:pathInRooms"
+		ng-d="{{img.path}}"
+		ng-show="data.items[img.id].visible"
+		ng-mousedown="itemsChoices(img.id, $event)"
+	/>
+	<image ng-repeat="img in data.items | filter:imgInRooms" 
+		xlink:href="{{'img/rooms/'+data.actualRoom+'/'+img.id+'.png'}}"
+		ng-width="{{img.svgImg[0]}}"
+		ng-height="{{img.svgImg[1]}}"
+		transform="{{'matrix('+img.svgImg[2]+')'}}"
+		ng-show="data.items[img.id].visible"
+	/>
+</svg>
