@@ -14,5 +14,9 @@
     "resizable": true,
     "show_in_taskbar": true,
     "frame":true
+  },
+  "dependencies": {
+    "express": 3.16.1,
+    "socket.io": "1.1.0"
   }
 }
